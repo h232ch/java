@@ -1,0 +1,31 @@
+package Chapter3;
+
+public class OperatorEx5 {
+	
+	public static void main(String[] args) {
+		
+		
+		//Last Test
+		
+		
+		char star='*';
+		int i;
+		int j=7;
+		
+		for (i=0; i<=j; i++) {
+			System.out.print(star);
+			
+			switch (i) {
+				case 0:
+					
+				
+			}
+				
+		}
+		
+		
+		
+		
+	}
+
+}

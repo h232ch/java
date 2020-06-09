@@ -1,0 +1,22 @@
+package Chapter3;
+
+public class OperatorEx5 {
+	
+	public static void main(String[] args) {
+		
+		
+		//Last Test
+		
+		
+		char star='*';
+		
+		for (int i=0; i<=7; i++) {
+			
+		}
+		
+		
+		
+		
+	}
+
+}

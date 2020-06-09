@@ -1,0 +1,27 @@
+package Chapter3;
+
+public class OperatorEx5 {
+	
+	public static void main(String[] args) {
+		
+		
+		//Last Test
+		
+		
+		char star='*';
+		int i=0;
+		int j=7;
+		
+		for (i; i<=j; i++) {
+			System.out.print(star);
+			if(i==0) {
+				for
+			}
+		}
+		
+		
+		
+		
+	}
+
+}

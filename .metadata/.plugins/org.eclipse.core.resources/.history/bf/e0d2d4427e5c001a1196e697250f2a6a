@@ -1,0 +1,71 @@
+package Chapter3;
+
+public class OperatorEx7 {
+	
+	public static void main(String[] args) {
+		
+		
+		int i=1;
+		int j=7;
+	
+		
+		int l=1;
+		while(l<=7) {
+			System.out.println(j/l);
+			l++;
+		}
+		
+		l=1;
+		while(l<=7) {
+			System.out.println("% : "+j%l);
+			l++;
+		}
+		
+		
+		int s;
+		for(i=1;i<=j;i++) {
+			
+			if(i<=4) {
+				s=j/i;
+			}else {
+				
+			}
+			
+			switch(s) {
+			case 1:
+				for(int k=1; k<=j; k++) {
+					if(k==7) {
+						System.out.println("*");
+					}else {
+						System.out.print('*');
+					}
+				}
+			case 2:
+				for(int k=1; k<=j; k++) {
+					if(k>=3 && k<=5) {
+						System.out.print("*");
+					}else if(k==7) {
+						System.out.println(' ');
+					}else {
+						System.out.print(' ');
+					}
+				}
+			case 3:
+				for(int k=1; k<=j; k++) {
+					if(k>=2 && k<=6) {
+						System.out.print("*");
+					}else if(k==7) {
+						System.out.println(' ');
+					}else {
+						System.out.print(' ');
+					}
+				}
+			}
+			
+			
+		}
+		
+		
+	}
+
+}

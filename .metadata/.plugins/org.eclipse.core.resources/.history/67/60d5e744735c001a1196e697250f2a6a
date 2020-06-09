@@ -1,0 +1,16 @@
+package Chapter3;
+
+public class OperatorEx5 {
+	
+	public static void main(String[] args) {
+		
+		
+		//Last Test
+		
+		
+		Strings star = "*";
+		System.out.println("*");
+		
+	}
+
+}

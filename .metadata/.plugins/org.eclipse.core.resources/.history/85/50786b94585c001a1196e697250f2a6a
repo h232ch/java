@@ -1,0 +1,20 @@
+package Chapter3;
+
+public class OperatorEx3 {
+	
+	public static void main(String[] args) {
+		
+		
+		int score = 100;
+		System.out.println(++score);
+		// score +=1;과 동일
+		
+		System.out.println(score++);
+		// 이 문장에서는 score가 +되지 않음
+		
+		System.out.println(score);
+		
+		
+	}
+
+}

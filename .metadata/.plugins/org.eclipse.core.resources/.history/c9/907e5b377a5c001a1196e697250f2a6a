@@ -1,0 +1,28 @@
+package Chapter3;
+
+public class OperatorEx7 {
+	
+	public static void main(String[] args) {
+		
+		
+		int i=1;
+		int j=6;
+		
+		System.out.println(j/2);
+		System.out.println(j/3);
+		System.out.println(j/4);
+		
+		for(i=1;i<=j;i++) {
+			for(int k=1;k<=j;k++) {
+				System.out.print(' ');
+				if(k==6) {
+					System.out.println(' ');
+				}
+			}
+			
+		}
+		
+		
+	}
+
+}
